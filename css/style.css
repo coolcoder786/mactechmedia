@@ -1,0 +1,100 @@
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+#home{
+    background-color: #CDFCF6;
+}
+h1{
+    font-weight: 800;
+    padding-bottom: 16px;
+}
+h3{
+    font-weight: bold;
+}
+
+p{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+#skills p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: gray;
+}
+
+/* navigation bar */
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: grey;
+}
+
+.nav-item{
+    padding: 0px 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+.contact-button{
+    margin: 5% 3% 5% 0;
+}
+.container{
+    padding: 1% 10%;
+}
+
+/* skills */
+#skills{
+    padding: 7% 15%;
+    background-color: white;
+}
+.feature-box{
+    text-align: center;
+    padding: 4.5%;
+}
+.icons{
+    margin-bottom: 1rem;
+    justify-content: center;
+    color: #528ee9;
+}
+.icons:hover{
+    color: #2f00ff;
+    cursor: pointer;
+}
+.progress{
+    margin: 7%;
+}
+#contacts{
+    background-color: #CDFCF6;
+    box-shadow: 10px 10px 8px 10px #888888;
+    margin: 0 5% 5% 5%;
+}
+
+#footer{
+    padding: 5% 0 5% 0;
+    text-align: center;
+    margin: 3%;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: gray;
+}
+
+.socials{
+    padding: 1.5%;
+}
+
+@media (max-width: 1028px) {
+    .title-img{
+        width: 90%;
+    }
+}
